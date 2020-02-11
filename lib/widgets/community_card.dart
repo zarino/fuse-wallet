@@ -106,6 +106,7 @@ class _CommunityCardScreenState extends State<CommunityCardScreen> {
                                           widget.community.token.symbol,
                                           style: TextStyle(
                                             fontSize: 13,
+                                            color: Colors.black,
                                             fontWeight: FontWeight.bold,
                                           ),
                                           textAlign: TextAlign.left,
