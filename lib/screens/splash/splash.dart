@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:fusecash/models/app_state.dart';
 import 'package:fusecash/models/views/splash.dart';
 import 'package:fusecash/screens/splash/create_wallet.dart';
@@ -102,10 +101,10 @@ class _SplashScreenState extends State<SplashScreen> {
                           children: <Widget>[
                             Align(
                               alignment: Alignment.center,
-                              child: SvgPicture.asset(
-                                'assets/images/bilira.svg',
-                                width: 105,
-                                height: 105,
+                              child: Image.asset(
+                                'assets/images/bit2c.png',
+                                width: 150,
+                                height: 150,
                               ),
                             ),
                             SizedBox(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-enum MyThemeKeys { DEFAULT, PAYWISE, OPEN_MONEY, GOOD_DOLLAR, WEPY, BILIRA }
+enum MyThemeKeys { DEFAULT, PAYWISE, OPEN_MONEY, GOOD_DOLLAR, WEPY, BIT2C }
 
 class MyThemes {
   static final ThemeData defaultTheme = getTheme();
@@ -34,7 +34,7 @@ class MyThemes {
           body1: new TextStyle(color: const Color(0xFF333333)),
           button: new TextStyle(color: Colors.white)));
 
-  static final ThemeData biliraTheme = getTheme().copyWith(
+  static final ThemeData bit2cTheme = getTheme().copyWith(
       primaryColorLight: const Color(0xFF414C74),
       primaryColorDark: const Color(0xFF06144C),
       buttonColor: const Color(0xFF0462FF),
@@ -45,7 +45,7 @@ class MyThemes {
   static ThemeData getThemeFromKey(MyThemeKeys themeKey) {
     switch (themeKey) {
       case MyThemeKeys.DEFAULT:
-        return biliraTheme;
+        return bit2cTheme;
       case MyThemeKeys.PAYWISE:
         return paywiseTheme;
       case MyThemeKeys.OPEN_MONEY:
@@ -54,8 +54,8 @@ class MyThemes {
         return goodDollarTheme;
       case MyThemeKeys.WEPY:
         return wepyTheme;
-      case MyThemeKeys.BILIRA:
-        return biliraTheme;
+      case MyThemeKeys.BIT2C:
+        return bit2cTheme;
       default:
         return defaultTheme;
     }
