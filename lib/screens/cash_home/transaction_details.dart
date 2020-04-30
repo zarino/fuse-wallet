@@ -3,12 +3,12 @@ import 'dart:core';
 import 'package:contacts_service/contacts_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:roost/generated/i18n.dart';
-import 'package:roost/models/transactions/transfer.dart';
-import 'package:roost/models/views/send_amount.dart';
-import 'package:roost/utils/transaction_row.dart';
-import 'package:roost/widgets/main_scaffold.dart';
-import 'package:roost/models/app_state.dart';
+import 'package:peepl/generated/i18n.dart';
+import 'package:peepl/models/transactions/transfer.dart';
+import 'package:peepl/models/views/send_amount.dart';
+import 'package:peepl/utils/transaction_row.dart';
+import 'package:peepl/widgets/main_scaffold.dart';
+import 'package:peepl/models/app_state.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 class TransactionDetailArguments {

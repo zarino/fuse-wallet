@@ -2,16 +2,16 @@ import 'dart:core';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:roost/generated/i18n.dart';
-import 'package:roost/models/app_state.dart';
-import 'package:roost/models/business.dart';
-import 'package:roost/models/views/buy_page.dart';
-import 'package:roost/screens/buy/business.dart';
-import 'package:roost/screens/cash_home/webview_page.dart';
-import 'package:roost/screens/routes.gr.dart';
-import 'package:roost/screens/send/send_amount_arguments.dart';
-import 'package:roost/utils/transaction_row.dart';
-import 'package:roost/widgets/main_scaffold.dart';
+import 'package:peepl/generated/i18n.dart';
+import 'package:peepl/models/app_state.dart';
+import 'package:peepl/models/business.dart';
+import 'package:peepl/models/views/buy_page.dart';
+import 'package:peepl/screens/buy/business.dart';
+import 'package:peepl/screens/cash_home/webview_page.dart';
+import 'package:peepl/screens/routes.gr.dart';
+import 'package:peepl/screens/send/send_amount_arguments.dart';
+import 'package:peepl/utils/transaction_row.dart';
+import 'package:peepl/widgets/main_scaffold.dart';
 
 class BuyScreen extends StatelessWidget {
   @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:roost/models/community.dart';
+import 'package:peepl/models/community.dart';
 import 'dart:core';
 
-import 'package:roost/screens/routes.gr.dart';
+import 'package:peepl/screens/routes.gr.dart';
 
 String getImageUrl(String imaga) {
   return DotEnv().env['IPFS_BASE_URL'] + '/image/' + imaga;

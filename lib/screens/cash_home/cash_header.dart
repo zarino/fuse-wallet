@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:roost/generated/i18n.dart';
-import 'package:roost/models/views/cash_header.dart';
-import 'package:roost/models/app_state.dart';
-import 'package:roost/screens/routes.gr.dart';
-import 'package:roost/screens/send/send_amount_arguments.dart';
-import 'package:roost/utils/format.dart';
+import 'package:peepl/generated/i18n.dart';
+import 'package:peepl/models/views/cash_header.dart';
+import 'package:peepl/models/app_state.dart';
+import 'package:peepl/screens/routes.gr.dart';
+import 'package:peepl/screens/send/send_amount_arguments.dart';
+import 'package:peepl/utils/format.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 
@@ -183,7 +183,7 @@ class CashHeader extends StatelessWidget {
                                 : Column(
                                     children: <Widget>[
                                       new Container(
-                                        child: Text('Roost coin',
+                                        child: Text('Peepl coin',
                                             style: TextStyle(
                                                 color: Theme.of(context)
                                                     .splashColor,

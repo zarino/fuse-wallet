@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:roost/models/pro/token.dart';
-import 'package:roost/models/transactions/transfer.dart';
-import 'package:roost/redux/state/store.dart';
-import 'package:roost/services.dart';
+import 'package:peepl/models/pro/token.dart';
+import 'package:peepl/models/transactions/transfer.dart';
+import 'package:peepl/redux/state/store.dart';
+import 'package:peepl/services.dart';
 import 'package:redux_thunk/redux_thunk.dart';
 import 'package:redux/redux.dart';
 import 'package:wallet_core/wallet_core.dart' as wallet_core;

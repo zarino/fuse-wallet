@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:roost/generated/i18n.dart';
-import 'package:roost/screens/pro_mode/pro_drawer.dart';
-import 'package:roost/screens/pro_mode/pro_header.dart';
-import 'package:roost/screens/pro_mode/pro_home.dart';
-import 'package:roost/screens/send/receive.dart';
-import 'package:roost/widgets/bottom_bar_item.dart';
-import 'package:roost/widgets/coming_soon.dart';
-import 'package:roost/widgets/my_app_bar.dart';
-import 'package:roost/widgets/tabs_scaffold.dart';
+import 'package:peepl/generated/i18n.dart';
+import 'package:peepl/screens/pro_mode/pro_drawer.dart';
+import 'package:peepl/screens/pro_mode/pro_header.dart';
+import 'package:peepl/screens/pro_mode/pro_home.dart';
+import 'package:peepl/screens/send/receive.dart';
+import 'package:peepl/widgets/bottom_bar_item.dart';
+import 'package:peepl/widgets/coming_soon.dart';
+import 'package:peepl/widgets/my_app_bar.dart';
+import 'package:peepl/widgets/tabs_scaffold.dart';
 import 'package:rate_my_app/rate_my_app.dart';
 
 class ProModeScaffold extends StatefulWidget {

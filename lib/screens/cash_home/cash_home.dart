@@ -1,15 +1,15 @@
 import 'package:contacts_service/contacts_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_segment/flutter_segment.dart';
-import 'package:roost/redux/actions/cash_wallet_actions.dart';
-import 'package:roost/redux/actions/user_actions.dart';
-import 'package:roost/themes/app_theme.dart';
-import 'package:roost/utils/contacts.dart';
-import 'package:roost/utils/forks.dart';
-import 'package:roost/models/app_state.dart';
+import 'package:peepl/redux/actions/cash_wallet_actions.dart';
+import 'package:peepl/redux/actions/user_actions.dart';
+import 'package:peepl/themes/app_theme.dart';
+import 'package:peepl/utils/contacts.dart';
+import 'package:peepl/utils/forks.dart';
+import 'package:peepl/models/app_state.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'cash_transactions.dart';
-import 'package:roost/models/views/cash_wallet.dart';
+import 'package:peepl/models/views/cash_wallet.dart';
 
 void updateTheme(
     String communityAddress, Function _changeTheme, BuildContext context) {

@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
-import 'package:roost/screens/pro_mode/pro_mode.dart';
+import 'package:peepl/screens/pro_mode/pro_mode.dart';
 
 class ProRouter {
   static const proModeHomeScreen = '/';

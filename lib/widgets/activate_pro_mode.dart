@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:roost/models/community.dart';
-import 'package:roost/redux/actions/user_actions.dart';
+import 'package:peepl/models/community.dart';
+import 'package:peepl/redux/actions/user_actions.dart';
 import 'package:redux/redux.dart';
-import 'package:roost/models/app_state.dart';
-import 'package:roost/widgets/activate_pro_mode2.dart';
+import 'package:peepl/models/app_state.dart';
+import 'package:peepl/widgets/activate_pro_mode2.dart';
 import 'dart:core';
 
 class ActivateProModeDialog extends StatefulWidget {
